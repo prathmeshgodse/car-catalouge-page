@@ -1,5 +1,5 @@
 .catalouge-container {
-  width: 50vw;
+  width: 55%;
   margin: 0 auto;
   .section-header {
     margin-top: 30px;
@@ -10,7 +10,8 @@
 
   .catalouge {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    justify-content: center;
   }
 }
