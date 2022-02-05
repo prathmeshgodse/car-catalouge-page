@@ -1,0 +1,44 @@
+.item-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 16vw;
+  background-color: white;
+  box-shadow: 5px 5px 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .car-image {
+    border-bottom: 1px solid black;
+    width: 320px;
+  }
+
+  .item-details {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    padding: 0 20px;
+
+    .car-name {
+      font-weight: 500;
+    }
+
+    .car-price {
+      font-weight: 700;
+    }
+  }
+
+  .btn-details-container {
+    width: max-content;
+    margin: 20px auto;
+    .btn-details {
+      font-size: 1.5rem;
+      padding: 5px 10px;
+      border: 1px solid rgb(65, 158, 245);
+      cursor: pointer;
+      background-color: rgb(111, 180, 245);
+      color: white;
+    }
+  }
+}
