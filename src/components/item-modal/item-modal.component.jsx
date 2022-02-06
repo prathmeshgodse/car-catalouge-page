@@ -27,7 +27,7 @@ function ItemModal(props) {
           <div className="car-specs-container">
             <p className="power">Power: {power} bph</p>
             <p className="speedup-time">0-60mph: {speedUp} secs</p>
-            <p className="fuel-economy">Fuel Economy: {fuelEconomy} kml</p>
+            <p className="fuel-economy">Fuel Economy: {fuelEconomy} km/l</p>
           </div>
           <div className="car-deatils">
             <p className="details">{details}</p>

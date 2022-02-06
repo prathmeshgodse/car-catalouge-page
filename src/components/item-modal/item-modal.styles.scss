@@ -17,8 +17,8 @@
   box-shadow: 5px 5px 10px;
 
   .car-image {
-    max-width: 100%;
-    height: auto;
+    height: 30vh;
+    width: auto;
   }
 
   .details-container {
@@ -55,37 +55,65 @@
   }
 }
 
-// @media screen and (max-width: 768px) {
-//   .modal-container {
-//     width: 80vw;
-//     flex-wrap: wrap;
-//   }
+@media screen and (max-width: 1024px) {
+  .modal-container {
+    width: 50vw;
+    flex-wrap: wrap;
+    .car-image {
+      width: 80vw;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
 
-//   .details-container {
-//     border-top: 2px solid black;
-//     border-left: none;
-//   }
+  .modal-container {
+    .details-container {
+      border-left: none;
+      border-top: 2px solid black;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
 
-//   .car-image {
-//     width: 315px;
-//     height: 210px;
-//     place-self: center;
-//   }
-// }
+@media screen and (max-width: 770px) {
+  .modal-container {
+    width: 80vw;
+    flex-wrap: wrap;
+    .car-image {
+      width: 80vw;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
 
-// @media screen and (max-width: 425px) {
-//   .modal-container {
-//     width: 90vw;
-//     flex-wrap: wrap;
-//   }
+  .modal-container {
+    .details-container {
+      border-left: none;
+      border-top: 2px solid black;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
 
-//   .details-container {
-//     border-top: 2px solid black;
-//     border-left: none;
-//   }
+@media screen and (max-width: 425px) {
+  .modal-container {
+    width: 90vw;
+    flex-wrap: wrap;
+    .car-image {
+      width: 90vw;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
 
-//   .car-image {
-//     width: 10px;
-//     place-self: center;
-//   }
-// }
+  .modal-container {
+    .details-container {
+      border-left: none;
+      border-top: 2px solid black;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}
